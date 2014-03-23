@@ -12,5 +12,5 @@ while line < heigth:
 	order = 0 - order
 	column = column + order
 	line = line + 1
-new_str = ''.join(x for x in str_list)
+new_str = ''.join(str_list)
 print(new_str)
